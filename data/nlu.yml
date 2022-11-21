@@ -1,0 +1,136 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Bye!
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yeah
+    - yup
+    - yes indeed
+    
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    -nop
+    -no thanks
+    
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: Economy
+  examples: |
+    - Contact Economic Expert
+    - I need an expert
+    - Any Economic Expert that I can contact with?
+    - May I speak with the manager?
+    - economic expert?
+    - Contacts of economic expert
+    - what is the pricing of your service?
+    - I need help
+    - can you help
+    - I want you to help me
+
+
+- intent: Thanking
+  examples: | 
+    - Thank you
+    - Thanks a lot
+    - thanks
+    - Thanks!
+    - Thank you very much!
+    - yes, thank you!
+- intent: location
+  examples: |
+    - Where are you?
+    - Whats the location?
+    - where are you based?
+    - whats your address?
+    - where is forensic economic service is based?
+    - whats the address?
+    - whats the address of forensic economic services?
+    - can I take an appointment with experts?
+    - location of forensic economic services?
+
+    
+    
+   

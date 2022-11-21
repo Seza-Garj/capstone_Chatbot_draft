@@ -1,0 +1,51 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - Economy
+  - Thanking
+  - location
+
+responses:
+  utter_greet:
+  - text: "Hey! How may I assist you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Goodbye and have a nice day!"
+
+  utter_sure:
+  - text: "Sounds good"
+
+  utter_iamabot:
+  - text: "I am a bot, created to assist you with any concerns."
+
+  action_check_weather:
+  - text: "You can contact by submitting a form through navigating to this link: https://rule703.com/contact/ or emailing us info@rule703.com "
+
+  utter_Economy:
+  - text: "You can contact us by submitting a form through navigating to this link: https://rule703.com/contact/ or emailing us at info@rule703.com"
+
+  utter_thanks:
+  - text: "Thank you too! do you need anything else?"
+
+  utter_location:
+  - text: "Our Address is 555 W 5th St Ste 34116, Los Angeles, CA 90013, United States. You can give us a call +1 424-308-0393"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

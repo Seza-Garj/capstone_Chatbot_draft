@@ -1,0 +1,52 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Economy
+  - action: utter_Economy
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - intent: Thanking
+  - action: utter_thanks
+  - intent: deny
+  - action: utter_sure
+  - action: utter_goodbye
+
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Economy
+  - action: utter_Economy
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - intent: Thanking
+  - action: utter_thanks
+  - intent: deny
+  - action: utter_sure
+  - action: utter_goodbye
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Economy
+  - action: utter_Economy
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - intent: Thanking
+  - action: utter_thanks
+  - intent: affirm
+  - action: utter_sure
+  - intent: location
+  - action: utter_location
+  - action: utter_goodbye
+
